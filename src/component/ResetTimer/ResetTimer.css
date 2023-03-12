@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+    height: 100%;
+}
+
+.wrapper{
+    background: url("http://mobimg.b-cdn.net/v3/fetch/1b/1b527f795a74ead6c5f7ba7ce4de8110.jpeg"),no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.content{
+    width: 50%;
+    padding: 30px 80px 50px 80px;
+    text-align: center;
+    background: rgba(9, 33, 67, 0.5);
+    box-shadow: 24px 26px 4px -11px rgba(0, 0, 0, 0.5);
+    border-radius: 36px;
+}
+.h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 90px;
+    line-height: 135px;
+    letter-spacing: 0.125em;
+
+    color: #FFFFFF;
+}
+
+
+.h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #A5DEFF;
+}
+
+.time{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.time_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 199px;
+    height: 199px;
+    background: #080F1A;
+    border-radius: 22px;
+}
+
+.num{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.category{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #A5DEFF;
+}
+
+
+@media (max-width: 1660px) {
+    .time_item{
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 1220px) {
+    .time_item{
+        width: 120px;
+        height: 120px;
+    }
+    .h1{
+        font-size: 70px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 970px) {
+    .time_item{
+        width: 90px;
+        height: 90px;
+    }
+
+    .num{
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .category{
+        font-size: 10px;
+
+    }
+    .h1{
+        font-size: 70px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 750px){
+    .time{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .time_item{
+        margin-bottom: 10px;}
+
+}
