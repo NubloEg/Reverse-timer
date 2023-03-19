@@ -1,6 +1,6 @@
 # Reverse-timer
 <div id="cover" align="center">
-  <img src="https://github.com/NubloEg/Reverse-timer/blob/main/src/img/README/Reverse_timer.png" />
+  <img src="https://github.com/NubloEg/Reverse-timer/blob/main/src/img/README/Reverse_timer.jpg" />
 </div>
 
 <h1>Компонент с обратным отсчетом</h1>
