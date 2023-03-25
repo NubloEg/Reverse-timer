@@ -132,17 +132,7 @@ body{
   
 
 }
-@media(orientation: landscape) and (max-width:750px){
-    
-    
-    .time{
-        margin-top: 20px;
-    }
-    .content{
-        width: 70%;
-        padding: 23px 60px;
-    }
-}
+
 
 @media (max-width: 750px){
    
@@ -154,7 +144,6 @@ body{
    
     .time{
         display: flex;
-        
         align-items: center;
         justify-content: space-between;
     }
@@ -166,5 +155,22 @@ body{
     .h1{
         font-size: 40px;
         line-height:50px;
+    }
+
+    .h2{
+        line-height:35px;
+    }
+}
+
+@media(orientation: landscape) and (max-width:750px){
+    
+    
+    .time{
+        margin-top: 20px;
+    }
+    .content{
+        width: 70%;
+        height:70%;
+        padding: 23px 60px;
     }
 }
