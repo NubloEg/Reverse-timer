@@ -5,7 +5,7 @@ body{
 }
 
 .wrapper{
-    background: url("http://mobimg.b-cdn.net/v3/fetch/1b/1b527f795a74ead6c5f7ba7ce4de8110.jpeg"),no-repeat;
+    background: url("http://mobimg.b-cdn.net/v3/fetch/1b/1b527f795a74ead6c5f7ba7ce4de8110.jpeg")0 0/cover ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,13 +129,32 @@ body{
     .h2{
         font-size: 20px;
     }
+  
 
+}
+@media(orientation: landscape) and (max-width:750px){
+    
+    
+    .time{
+        margin-top: 20px;
+    }
+    .content{
+        width: 70%;
+        padding: 23px 60px;
+    }
 }
 
 @media (max-width: 750px){
+   
+    .content{
+        width: 70%;
+        height:85%;
+    }
+    
+   
     .time{
         display: flex;
-        flex-direction: column;
+        
         align-items: center;
         justify-content: space-between;
     }
@@ -143,4 +162,9 @@ body{
     .time_item{
         margin-bottom: 10px;}
 
+
+    .h1{
+        font-size: 40px;
+        line-height:50px;
+    }
 }
